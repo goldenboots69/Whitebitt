@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
   
 
   // Initially hide the popup
-  errorPopup.style.display = 'none';
+  errorPopup.style.display = 'block';
 
   closePopupBtn.addEventListener('click', () => {
     errorPopup.style.display = 'none';
